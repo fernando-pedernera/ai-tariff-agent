@@ -1,0 +1,9 @@
+semantic-kernel
+openai
+azure-identity
+azure-core
+azure-search-documents
+python-dotenv
+requests
+pandas
+
