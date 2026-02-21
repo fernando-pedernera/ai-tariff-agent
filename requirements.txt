@@ -9,4 +9,5 @@ requests
 pandas
 fastapi
 uvicorn
+gunicorn
 
