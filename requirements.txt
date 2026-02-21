@@ -1,9 +1,12 @@
 semantic-kernel
 openai
 azure-identity
+azure-keyvault-secrets
 azure-core
 azure-search-documents
 python-dotenv
 requests
 pandas
+fastapi
+uvicorn
 
