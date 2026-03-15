@@ -27,12 +27,36 @@ cd ai-tariff-agent
 We have a conceptual agent that receives a description and provides a suggested HS Code. This is the first step toward a fully functional system.
 
 
+
+```mermaid
 flowchart TD
-    A[User Entry point] --> B[Interface Chat / Form<br/>Simple UI for product description input]
-    B --> C[Classification Agent Microsoft Agent Framework<br/>Orchestrates the reasoning flow]
-    C --> D[Model Router Azure<br/>Shows scalability even if routing to a single agent]
-    D --> E[Azure MCP Mock external regulations<br/>Simulates access to customs laws]
-    D --> F[Azure AI Foundry GPT-4o<br/>Reasoning engine Brain]
-    F <--> G[Azure AI Search RAG<br/>External normative memory, simulated in MVP]
-    F --> H[Microsoft Foundry Security<br/>Compliance and enterprise readiness]
-    H --> I[Output: Suggested HS Code<br/>Final result delivered to the user]
+    A["User"] --> B["UI<br/>Chat / Form"]
+    
+    B --> C["Classification Agent<br/>MS Agent Framework"]
+    
+    C --> D["Model Router<br/>Azure"]
+    
+    D --> E["Azure MCP<br/>Mock regulations"]
+    D --> F["Azure AI Foundry<br/>GPT-4o"]
+    
+    F <--> G["Azure AI Search<br/>RAG"]
+    
+    F --> H["Foundry Security<br/>Compliance"]
+    
+    H --> I["Output<br/>HS Code"]
+
+```
+---
+
+## Diagram Explanation
+
+The following diagram illustrates the information flow of our AI Agent for tariff classification:
+
+1.  **User Input:** The user provides a product description through a simple UI (Chat/Form).
+2.  **Orchestration:** The **Classification Agent** orchestrates the reasoning process using **Microsoft’s agent framework**.
+3.  **Model Routing:** A **Model Router** ensures scalability and directs requests efficiently.
+4.  **Reasoning & Regulations:** * Reasoning is powered by **GPT-4o**.
+    * External regulations are simulated via **Azure MCP**.
+5.  **Normative Memory:** **Azure AI Search (RAG)** provides the necessary external normative memory by retrieving relevant customs documentation.
+6.  **Security Layer:** **Microsoft Azure AI Foundry** (Security Layer) ensures compliance, safety, and enterprise readiness.
+7.  **Result:** Finally, the system outputs a **suggested HS Code** to the user.

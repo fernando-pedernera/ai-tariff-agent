@@ -3,11 +3,15 @@ openai
 azure-identity
 azure-keyvault-secrets
 azure-core
-azure-search-documents
 python-dotenv
 requests
 pandas
-fastapi
-uvicorn
-gunicorn
+PyPDF2
+langchain
+langchain-community
+faiss-cpu
+tiktoken
+streamlit
+
+
 

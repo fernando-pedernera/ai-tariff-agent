@@ -1,0 +1,13 @@
+semantic-kernel
+openai
+azure-identity
+azure-keyvault-secrets
+azure-core
+python-dotenv
+requests
+pandas
+PyPDF2
+langchain
+langchain-community
+faiss-cpu
+tiktoken
