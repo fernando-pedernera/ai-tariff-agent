@@ -58,7 +58,7 @@
 **Note on index storage:** For the hackathon demo, FAISS indexes are generated locally and included in `indexes/.` For production, store the indexes in Azure Storage or a managed vector store and connect them to Foundry for scalable retrieval.
 
 
-![Diagram of the project architecture](docs\diagram.jpg)
+![Diagram of the project architecture](docs/diagram.jpg)
 
 ---
 
@@ -151,7 +151,7 @@ The **Customs AI Agent** demonstrates how generative AI can transform high-preci
 
 ## 👤 Author & Recognition
 
-**Fernando Pedernera***Data Analyst | International Trade Expert*
+**Fernando Pedernera** *Data Analyst | International Trade Expert*
 
 - **LinkedIn:** [fernando-pedernera](https://www.linkedin.com/in/fernando-pedernera/)
-- **Microsoft Learn:** [fernando-pedernera (Official Transcript)](https://learn.microsoft.com/es-es/users/fernando-pedernera/transcript/73kn2h22mjk4x2w)the user]
+- **Microsoft Learn:** [fernando-pedernera (Official Transcript)](https://learn.microsoft.com/es-es/users/fernando-pedernera/transcript/73kn2h22mjk4x2w)
